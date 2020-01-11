@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.com.ifba.app"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="22" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:resizeableActivity="true"
+        android:theme="@style/AppTheme2" >
+        <activity
+            android:name="br.com.ifba.app.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="br.com.ifba.app.Recuperar"
+            android:label="@string/tela_recuperar" />
+        <activity
+            android:name="br.com.ifba.app.Lista"
+            android:label="@string/tela_perfil" />
+        <activity
+            android:name="br.com.ifba.app.Registrar"
+            android:label="@string/tela_registrar" />
+        <activity
+            android:name="br.com.ifba.app.Progresso"
+            android:label="@string/tela_carregar" />
+    </application>
+
+</manifest>

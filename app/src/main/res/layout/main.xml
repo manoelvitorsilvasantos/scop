@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent"
+	android:background="@color/texto_login">
+
+	<AutoCompleteTextView
+		android:inputType="textEmailAddress"
+		android:layout_width="wrap_content"
+		android:ems="10"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="150dip"
+		android:hint="@string/txt_User"
+		android:textAlignment="center"
+		android:textSize="18sp"
+		android:id="@+id/txtUsername"
+		android:textColor="@color/preto"
+		android:gravity="center"
+		style="@style/EntradaUser"/>
+
+	<EditText
+		android:inputType="textPassword"
+		android:layout_width="wrap_content"
+		android:ems="10"
+		android:layout_below="@id/txtUsername"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="0dip"
+		android:hint="@string/txt_Pass"
+		android:gravity="center"
+		android:id="@+id/txtPassword"
+		style="@style/EntradaPass"/>
+
+	<Button
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="@string/btn_login"
+		android:layout_below="@id/txtPassword"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="30dip"
+		android:id="@+id/btnLogin"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:layout_width="wrap_content"
+		android:text="@string/lbl_rec"
+		android:layout_below="@id/btnLogin"
+		android:layout_marginLeft="25dp"
+		android:layout_marginTop="20dp"
+		android:id="@+id/lblEsquecer"
+		android:textIsSelectable="false"
+		style="@style/Label"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:layout_width="wrap_content"
+		android:text="@string/lbl_reg"
+		android:layout_below="@id/btnLogin"
+		android:layout_marginLeft="170dp"
+		android:layout_marginTop="20dp"
+		android:id="@+id/lblRegistrar"
+		android:layout_alignParentRight="true"
+		android:layout_marginRight="25dp"
+		style="@style/Label"/>
+
+	<ImageView
+		android:layout_height="@dimen/icone"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:layout_width="@dimen/icone"
+		android:text="Small Text"
+		android:src="@drawable/facebook"
+		android:layout_below="@id/lblEsquecer"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="30dp"
+		android:layout_alignParentRight="true"
+		android:layout_marginRight="10dp"
+		android:id="@+id/facebook"/>
+
+	<ImageView
+		android:layout_height="@dimen/icone"
+		android:layout_width="@dimen/icone"
+		android:text="Text"
+		android:src="@drawable/google"
+		android:layout_below="@id/lblRegistrar"
+		android:layout_marginTop="30dp"
+		android:layout_centerHorizontal="true"
+		android:layout_alignParentRight="true"
+		android:layout_marginRight="80dp"
+		android:id="@+id/google"/>
+
+</RelativeLayout>
+

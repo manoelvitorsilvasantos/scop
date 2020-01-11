@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent"
+	android:background="@color/texto_login">
+
+	<ScrollView
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:layout_centerHorizontal="true"
+		android:layout_margin="10dp">
+
+		<RelativeLayout
+			android:orientation="vertical"
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent">
+
+			<ImageView
+				android:layout_height="@dimen/imgIcone"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:layout_width="@dimen/imgIcone"
+				android:text="Medium Text"
+				android:id="@+id/perfilTextView1"
+				android:layout_marginTop="10dp"
+				android:layout_centerHorizontal="true"
+				android:src="@drawable/sasuke"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:layout_width="wrap_content"
+				android:text="PERFIL"
+				android:layout_below="@id/perfilTextView1"
+				android:layout_marginTop="10dp"
+				android:layout_centerHorizontal="true"
+				android:id="@+id/tagTitulo"
+				style="@style/LabelPerfil"
+				android:shadowColor="#C900FF"
+				android:shadowRadius="1.0"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:layout_width="wrap_content"
+				android:text="Uchicha Sasuke"
+				android:layout_below="@id/tagTitulo"
+				android:layout_marginTop="10dp"
+				android:layout_centerHorizontal="true"
+				android:id="@+id/tagNome"
+				style="@style/LabelPerfil"/>
+
+		</RelativeLayout>
+
+	</ScrollView>
+
+</RelativeLayout>
+

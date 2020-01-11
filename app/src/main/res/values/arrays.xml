@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="opcoes_menu">
+		<item>Home</item>
+		<item>Sobre</item>
+		<item>Contatos</item>
+	</string-array>
+	<string-array name="lista_nomes">
+		<item>abel</item>
+		<item>adah</item>
+		<item>ana bela</item>
+		<item>ana julia</item>
+		<item>anael</item>
+		<item>beatriz</item>
+		<item>bruna</item>
+		<item>beyamin</item>
+		<item>caim</item>
+		<item>cam</item>
+		<item>canãa</item>
+		<item>daniel</item>
+		<item>david</item>
+		<item>eliah</item>
+		<item>emmanuel</item>
+		<item>emah</item>
+		<item>ehadi</item>
+		<item>edha</item>
+		<item>edna</item>
+		<item>enoque</item>
+		<item>fernando</item>
+		<item>fabricio</item>
+		<item>fanuel</item>
+		<item>gamaliel</item>
+		<item>gabriel</item>
+		<item>hennok</item>
+		<item>ismael</item>
+		<item>itzchak</item>
+		<item>isaac</item>
+		<item>israel</item>
+		<item>irud</item>
+		<item>jonatas</item>
+		<item>jonas</item>
+		<item>josue</item>
+		<item>jonatan</item>
+		<item>leviatan</item>
+		<item>leviata</item>
+		<item>levi</item>
+		<item>moseh</item>
+		<item>metusalem</item>
+		<item>miguel</item>
+		<item>namah</item>
+		<item>neguete</item>
+		<item>osni</item>
+		<item>paulo</item>
+		<item>pedro</item>
+		<item>retusael</item>
+		<item>rafael</item>
+		<item>samael</item>
+		<item>salatiel</item>
+		<item>salome</item>
+		<item>tova</item>
+		<item>uriel</item>
+		<item>yeshuati</item>
+		<item>yerushalaim</item>
+		<item>yisraeli</item>
+		<item>Ysmaeli</item>
+		<item>root</item>
+	</string-array>
+</resources>

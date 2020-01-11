@@ -1,0 +1,32 @@
+package br.com.ifba.data;
+import android.content.*;
+import android.app.*;
+import android.widget.*;
+
+public class Alerta
+{
+	
+	public Alerta(){
+		super();
+	}
+	
+	public void aviso(Context contexto, String texto){
+		Toast.makeText(contexto, texto, Toast.LENGTH_LONG).show();
+	}
+	
+	public void alertaDialogo(Context contexto, String titulo, String msg, String btnTxt){
+		AlertDialog.Builder alerta = new AlertDialog.Builder(contexto);
+		alerta.setTitle(titulo);
+		alerta.setMessage(msg);
+		alerta.setNeutralButton(btnTxt, new DialogInterface.OnClickListener(){
+				@Override
+				public void onClick(DialogInterface p1, int p2)
+				{
+					p1.dismiss();
+				}
+		});
+		alerta.create();
+		alerta.show();
+	}
+	
+}

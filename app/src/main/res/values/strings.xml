@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Adote um Pets</string>
+    <string name="hello_world">Hello world!</string>
+	<string name="tela_login">Tela de Login</string>
+	<string name="aviso_invalid"> Usuário ou Senha incorreto!</string>
+	<string name="aviso_vazio">Campos vázios, Porfavor preencha-os!</string>
+	<string name="login_alertaDialogoTitulo">Aviso</string>
+	<string name="login_alertaDialogTexto"> Você foi logado Sucesso</string>
+	<string name="btn_Sair">Sair</string>
+	<string name="brn_enviar">Enviar</string>
+	<string name="tela_perfil">Perfil Usuário</string>
+	<string name="tela_recuperar">Recuperar Conta</string>
+	<string name="tela_login">Login</string>
+	<string name="tela_carregar">Carregando</string>
+	<string name="tela_registrar">Cadastrar</string>
+	<string name="menuSobreItem">Sobre</string>
+	<string name="menuContatoItem">Contatos</string>
+	<string name="btnRegistrar">Registrar</string>
+</resources>

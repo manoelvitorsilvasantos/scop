@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="@android:style/Theme.Holo.Light">
+	</style>
+	<style name="AppTheme2" parent="Theme.AppCompat">
+		<item name="colorPrimary">@color/preto</item>
+		<item name="colorPrimaryDark">@color/ColorHint</item>
+		<item name="colorAccent">@color/cinza_medio</item>
+		<item name="android:textSize">18sp</item>
+		<item name="android:textStyle">bold</item>
+	</style>
+	
+	<style name="Entrada" parent="AppTheme">
+		<item name="android:layout_height">@dimen/editTextAltura</item>
+		<item name="android:layout_width">@dimen/editTextLargura</item>
+		<item name="android:textColor">@color/preto</item>
+		<item name="android:textColorHint">@color/ColorHint</item>
+		<item name="android:textColorLink">@color/ColorLink</item>
+		<item name="android:textColorHighlight">@color/ColorHighlight</item>
+		<item name="android:textAlignment">center</item>
+		<item name="android:background">@drawable/bg_bottom</item>
+	</style>
+	
+	<style name="EntradaUser" parent="AppTheme">
+		<item name="android:layout_height">@dimen/editTextAltura</item>
+		<item name="android:layout_width">@dimen/editTextLargura</item>
+		<item name="android:textColor">@color/preto</item>
+		<item name="android:textColorHint">@color/ColorHint</item>
+		<item name="android:textColorLink">@color/ColorLink</item>
+		<item name="android:textColorHighlight">@color/ColorHighlight</item>
+		<item name="android:textAlignment">center</item>
+		<item name="android:background">@drawable/seletor_edittext_user</item>
+	</style>
+	
+	<style name="EntradaPass" parent="AppTheme">
+		<item name="android:layout_height">@dimen/editTextAltura</item>
+		<item name="android:layout_width">@dimen/editTextLargura</item>
+		<item name="android:textColor">@color/preto</item>
+		<item name="android:textColorHint">@color/ColorHint</item>
+		<item name="android:textColorLink">@color/ColorLink</item>
+		<item name="android:textColorHighlight">@color/ColorHighlight</item>
+		<item name="android:textAlignment">center</item>
+		<item name="android:background">@drawable/seletor_edittext_pass</item>
+	</style>
+	
+	<style name="EntradaReg" parent="AppTheme">
+		<item name="android:layout_height">@dimen/editTextAltura</item>
+		<item name="android:layout_width">@dimen/editTextLarguraReg</item>
+		<item name="android:textColor">@color/preto</item>
+		<item name="android:textColorHint">@color/ColorHint</item>
+		<item name="android:textColorLink">@color/ColorLink</item>
+		<item name="android:textColorHighlight">@color/ColorHighlight</item>
+		<item name="android:textAlignment">center</item>
+		<item name="android:background">@drawable/bg_bottom</item>
+		<item name="android:gravity">center</item>
+	</style>
+
+	<style name="Label" parent="AppTheme">
+		<item name="android:textStyle">bold</item>
+		<item name="android:textColor">@color/preto</item>
+		<item name="android:layout_margin">10dp</item>
+	</style>
+	<style name="LabelPerfil" parent="AppTheme">
+		<item name="android:background">@drawable/label</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:textColor">@color/branco</item>
+		<item name="android:layout_margin">10dp</item>
+		<item name="android:padding">10dp</item>
+	</style>
+	
+	<style name="options" parent="AppTheme">
+		<item name="android:textColor">@color/branco</item>
+		<item name="android:background">@drawable/seletor_option</item>
+		<item name="android:padding">10dip</item>
+	</style>
+</resources>

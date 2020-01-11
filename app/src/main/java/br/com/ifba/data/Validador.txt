@@ -1,0 +1,29 @@
+package br.com.ifba.data;
+import android.widget.*;
+
+public class Validador
+{
+	
+	public Validador(){
+		super();
+	}
+
+	public boolean getIsValidEmail(EditText email)
+	{
+		return (email.getText().toString().matches("[a-zA-Z0-9_.-]+@[a-z]+.[a-z]+"));
+	}
+	
+	public  String getEditTextToString(EditText campo){
+		return (campo.getText().toString());
+	}
+	
+	public boolean getIsEmpty(EditText campo){
+		return (campo.getText().toString().isEmpty());
+	}
+	
+	public boolean getEditIsEquals(final EditText campoX, final EditText campoY){
+		return (campoX.getText().toString().equals(getEditTextToString(campoY)));
+	}
+	
+	
+}

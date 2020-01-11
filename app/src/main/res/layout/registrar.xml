@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent"
+	android:background="@color/texto_login">
+
+	<ScrollView
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:layout_centerHorizontal="true"
+		android:layout_margin="10dp">
+
+		<RelativeLayout
+			android:orientation="vertical"
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent">
+
+			<EditText
+				android:inputType="textEmailAddress"
+				android:hint="Usuário"
+				android:ems="10"
+				android:layout_centerHorizontal="true"
+				android:layout_marginTop="50dp"
+				style="@style/EntradaReg"
+				android:id="@+id/et_user"/>
+
+			<EditText
+				android:inputType="textEmailAddress"
+				android:hint="E-mail"
+				android:ems="10"
+				android:layout_below="@id/et_user"
+				android:layout_centerHorizontal="true"
+				android:layout_marginTop="10dp"
+				style="@style/EntradaReg"
+				android:id="@+id/et_mail"/>
+
+			<EditText
+				android:inputType="textEmailAddress"
+				android:ems="10"
+				android:layout_below="@id/et_mail"
+				android:layout_centerHorizontal="true"
+				android:layout_marginTop="10dp"
+				style="@style/EntradaReg"
+				android:hint="Repetir E-mail"
+				android:id="@+id/et_mailReg"/>
+
+			<EditText
+				android:inputType="textPassword"
+				android:ems="10"
+				android:layout_below="@id/et_mailReg"
+				android:layout_centerHorizontal="true"
+				style="@style/EntradaReg"
+				android:layout_marginTop="10dp"
+				android:hint="senha"
+				android:id="@+id/et_pass"/>
+
+			<EditText
+				android:inputType="textPassword"
+				android:ems="10"
+				android:layout_below="@id/et_pass"
+				android:layout_centerHorizontal="true"
+				android:layout_marginTop="10dp"
+				style="@style/EntradaReg"
+				android:hint="Repetir senha"
+				android:id="@+id/et_passReg"/>
+
+			<EditText
+				android:inputType="phone"
+				android:ems="10"
+				android:layout_below="@id/et_passReg"
+				android:layout_centerHorizontal="true"
+				style="@style/EntradaReg"
+				android:layout_marginTop="10dp"
+				android:hint="Celular principal"
+				android:id="@+id/et_cel1"/>
+
+			<EditText
+				android:inputType="phone"
+				android:ems="10"
+				android:layout_below="@id/et_cel1"
+				android:layout_centerHorizontal="true"
+				style="@style/EntradaReg"
+				android:layout_marginTop="10dp"
+				android:hint="Celular secudário"
+				android:id="@+id/et_cel2"/>
+
+			<Spinner
+				android:layout_height="wrap_content"
+				android:layout_width="200dp"
+				android:layout_below="@id/et_cel2"
+				android:id="@+id/spin"
+				android:layout_marginTop="10dp"
+				android:layout_centerHorizontal="true"
+				style="@style/options"/>
+
+			<Spinner
+				android:layout_height="wrap_content"
+				android:layout_width="200dp"
+				android:layout_below="@id/spin"
+				android:layout_centerHorizontal="true"
+				android:layout_marginTop="10dp"
+				android:id="@+id/spinAnimal"
+				style="@style/options"/>
+
+			<Button
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:layout_below="@id/spinAnimal"
+				android:layout_centerHorizontal="true"
+				android:layout_marginTop="10dp"
+				android:id="@+id/btnReg"
+				android:text="@string/btnRegistrar"/>
+
+		</RelativeLayout>
+
+	</ScrollView>
+
+</RelativeLayout>
+

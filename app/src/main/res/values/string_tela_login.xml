@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="btn_login">LOGIN</string>
+	<string name="txt_User">Username</string>
+	<string name="txt_Pass">********</string>
+	<string name="lbl_reg">Registrar-se
+</string>
+	<string name="lbl_rec">Esqueceu a Senha</string>
+</resources>

@@ -1,0 +1,42 @@
+CREATE TABLE IF NOT EXISTS "tbl_city" (
+	"codCity"	INTEGER NOT NULL UNIQUE,
+	"nomeCity"	INTEGER UNIQUE,
+	PRIMARY KEY("codCity")
+);
+CREATE TABLE IF NOT EXISTS "tbl_animal" (
+	"codAnimal"	INTEGER NOT NULL UNIQUE,
+	"tipoAnimal"	TEXT NOT NULL UNIQUE,
+	PRIMARY KEY("codAnimal")
+);
+CREATE TABLE IF NOT EXISTS "infoUser" (
+	"id"	INTEGER NOT NULL UNIQUE,
+	"nome"	INTEGER,
+	"email"	INTEGER,
+	"senha"	INTEGER,
+	"cel1"	INTEGER,
+	"cel2"	INTEGER,
+	PRIMARY KEY("id" AUTOINCREMENT)
+);
+INSERT INTO "tbl_city" ("codCity","nomeCity") VALUES (1,'America Dourado'),
+ (2,'Barra do Mendes'),
+ (3,'Barro Alto'),
+ (4,'Cafarnaum'),
+ (5,'Canarana'),
+ (6,'Central'),
+ (7,'Gentío do Ouro'),
+ (8,'Ibipeba'),
+ (9,'Ibititá'),
+ (10,'Iraquara'),
+ (11,'Irecê'),
+ (12,'João Dourado'),
+ (13,'Jussara'),
+ (14,'Lapão'),
+ (15,'Mulungu do Morro'),
+ (16,'Presidente Dutra'),
+ (17,'São Gabriel'),
+ (18,'Souto Soares'),
+ (19,'Uibaí');
+INSERT INTO "tbl_animal" ("codAnimal","tipoAnimal") VALUES (1,'Cão
+'),
+ (2,'Gato
+');

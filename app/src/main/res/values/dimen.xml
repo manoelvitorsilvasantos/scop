@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<dimen name="editTextAltura">40dp</dimen>
+	<dimen name="editTextLargura">200dp</dimen>
+	<dimen name="editTextLarguraReg">230dp</dimen>
+	<dimen name="largura">100dp</dimen>
+	<dimen name="altura">100dp</dimen>
+	<dimen name="rotacao">5dp</dimen>
+	<dimen name="rotacaoNula">4dp</dimen>
+	<dimen name="icone">64dip</dimen>
+	<dimen name="imgIcone">128dp</dimen>
+	<dimen name="borda_edittext">1dip</dimen>
+</resources>
